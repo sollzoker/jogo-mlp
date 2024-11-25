@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Os Elementos Perdidos</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario--cena1.jpg" alt="">
+            <p>Era um dia ensolarado e pacífico em Ponyville, até toda lógica e natureza ficar estranha e bagunçada, um ambiente caótico tinha se formado. Discórdia tinha fugido mais uma vez e estava espalhando caos. Você precisa encontrar os Elementos da Harmonia para derrotar ele!</p>
+            <button class="btn-proximo" data-proximo="1">Ajudar a encontrar os Elementos da Harmonia e salvar Ponyville</button>
+            <button class="btn-proximo" data-proximo="2">Não se arriscar, e deixar Ponyille se afundar no caos</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você comecou sua aventura e decidiu que estava disposto a ajudar a achar cada elemento da Harmonia. Os primeiros que você precisava achar eram os elementos da Honestidade, Lealdade e da Bondade. Onde você deseja procurar primeiro?</p>
+            <button class="btn-proximo" data-proximo="3">Fazenda Maçã Doce</button>
+            <button class="btn-proximo" data-proximo="4">Floresta da Liberdade</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>O futuro de Ponyville estava em suas mãos, mas você decidiu não ajudar, e voltou pra sua casa lidando com o sentimento da culpa.</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar jogo</button>
+        
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="img/fazenda.webp" alt="">
+            <p>Você decidiu ir a Fazenda da familia Apple para procurar por lá. Onde você procura primeiro?</p>
+            <button class="btn-proximo" data-proximo="6">Cozinha</button>
+            <button class="btn-proximo" data-proximo="7">Quarto da Apple Bloom</button>
+            <button class="btn-proximo" data-proximo="1">Voltar</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/lobos-madeira.png" alt="">
+            <p>Você adentrou na escura floresta, andou a vasculhou por uma longa distância mas tudo que você achou foi alguns Lobos de Madeira assustadores dos quais você imediatamente teve que fugir e voltar de onde começou</p>
+            <button class="btn-proximo" data-proximo="1">Voltar da onde você veio</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Era um dia ensolarado e pacífico em Ponyville, até toda lógica e natureza ficar estranha e bagunçada, um ambiente caótico tinha se formado. Discórdia tinha fugido mais uma vez e estava espalhando caos. Você precisa encontrar os Elementos da Harmonia para derrotar ele!</p>
+            <button class="btn-proximo" data-proximo="1">Ajudar a encontrar os Elementos da Harmonia e salvar Ponyville</button>
+        
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="img/cozinha-apple.png" alt="">
+            <p>Em qual lugar da cozinha você decide procurar?</p>
+            <button class="btn-proximo" data-proximo="8">Fogão</button>
+            <button class="btn-proximo" data-proximo="9">Prateleiras</button>
+            <button class="btn-proximo" data-proximo="3">Voltar</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="img/quarto-applebloom.png" alt="">
+            <p>Em que lugar do quarto você quer procurar?</p>
+            <button class="btn-proximo" data-proximo="10">Debaixo da cama</button>
+            <button class="btn-proximo" data-proximo="11">Atrás de um quadro</button>
+            <button class="btn-proximo" data-proximo="3">Voltar</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="img/fogao.png" alt="">
+            <p>Dentro do fogão você encontrou apenas uma torta de maça. Parecia deliciosa, mas não era o que você estava procurando.</p>
+            <button class="btn-proximo" data-proximo="6">Procurar em outro lugar</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="img/prateleiras.png" alt="">
+            <p>Você olhou as prateleiras mas não achou nada interessante.</p>
+            <button class="btn-proximo" data-proximo="6">Procurar em outro lugar</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="img/cama.png" alt="">
+            <p>Não havia nada debaixo da cama.</p>
+            <button class="btn-proximo" data-proximo="7">Vasculhar outro lugar do quarto</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p>Você tirou o quadro da parede, e atrás dele encontrou o elemento da Honestidade, Lealdade e Bondade escondidos! Discórdia deve ter os escondido aqui. Vamos encontrar o resto!</p>
+            <button class="btn-proximo" data-proximo="12">Procurar os outros Elementos</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <img src="img/elemntos.jpg" alt="">
+            <p>Você já tinha encontrado metade dos Elementos, mas sem todos reunidos eles são inúteis. Onde você quer procurar os próximos Elementos?</p>
+            <button class="btn-proximo" data-proximo="13">Procurar na casa de Rarity</button>
+            <button class="btn-proximo" data-proximo="14">Procurar em Cloudsdale</button>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <img src="img/castores-possuidos.png" alt="">
+            <p>Oh não! Era uma armadilha do Discórdia! A casa estava infestada com castores agressivos possuídos pelo Discórdia1</p>
+            <button class="btn-proximo" data-proximo="12">Fugir rapidamente</button>
+        </div>
+
+        <div class="passo" id="passo-14">
+            <img src="img/amigas.webp" alt="">
+            <p>Você sabe que não conseguiria procurar sozinho(a) em um lugar tão grande e decide que precisaria da ajuda de alguma de suas amigas. Quem você chama pra te ajudar? </p>
+            <button class="btn-proximo" data-proximo="15">Pinkie Pie</button>
+            <button class="btn-proximo" data-proximo="16">Twilight Sparkle</button>
+        </div>
+
+        <div class="passo" id="passo-15">
+            <img src="img/pinkie.webp" alt="">
+            <p>Pinkie Pie é um pônei, portanto não tem asas para poder voar até Cloudsdale e te ajudar.</p>
+            <button class="btn-proximo" data-proximo="14">Pedir ajuda de outra amiga.</button>
+           
+        </div>
+
+        <div class="passo" id="passo-16">
+            <img src="img/Cloudsdale.webp" alt="">
+            <p>Twilight voou com você Cloudsdale, e procurando juntas vocês acharam os elementos restantes espalhados por lá, eram os elementos da Generosidade, Alegria e Magia. O que você e suas amigas vão fazer agora?</p>
+            <button class="btn-proximo" data-proximo="17">Usar os Elementos da Harmonia contra Discórdia.</button>
+            <button class="btn-proximo" data-proximo="18">Não usar os Elementos da Harmonia.</button>
+        </div>
+
+        <div class="passo" id="passo-17">
+            <img src="img/discordia-estatua.webp" alt="">
+            <p>Parabéns! Usando os Elementos da Harmonia você e suas amigas derrotaram Discórdia e salvaram Ponnyville!</p>
+            <button class="btn-proximo" data-proximo="0">Jogar novamente</button>
+        </div>
+
+        <div class="passo" id="passo-18">
+            <img src="img/ponyville-destruida.jpg" alt="">
+            <p>Sem os Elementos da Harmonia você não era páreo(a) contra Discórdia, o que levou a sua derrota e deixou Ponnyville no caos eterno.</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
